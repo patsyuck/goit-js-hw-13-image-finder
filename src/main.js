@@ -2,7 +2,7 @@ import apiService from './apiService.js'
 import listCards from '../templates/list.hbs'
 
 const searchForm = document.querySelector(".search-form")
-const inputValue = searchForm.querySelector('input[type="text"]')
+const inputValue = document.querySelector('input')
 const loadButton = document.querySelector('.load')
 const galleryArea = document.querySelector(".gallery")
 
